@@ -12,6 +12,30 @@ body{
     display: none;
   }
 }
+.about-me{
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    display: block;
+    z-index: 10000000000;
+}
+.about-me .btn{
+    background-color: #f7ca18;
+    color: #202020;
+    border-radius: 0;
+    font-size: larger;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.about-me .btn:active, .about-me .btn:focus{box-shadow: none;}
+.modal .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #f7ca18;
+}
 .preloader {
     position: fixed;
     top: 0;
